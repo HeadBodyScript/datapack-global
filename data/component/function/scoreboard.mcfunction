@@ -1,0 +1,1 @@
+scoreboard objectives add constructor.healing_amount dummy

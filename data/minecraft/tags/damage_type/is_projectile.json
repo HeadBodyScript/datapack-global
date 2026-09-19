@@ -1,0 +1,12 @@
+{
+  "values": [
+    "global:arrow",
+    "global:trident",
+    "global:mob_projectile",
+    "global:unattributed_fireball",
+    "global:fireball",
+    "global:wither_skull",
+    "global:thrown",
+    "global:wind_charge"
+  ]
+}

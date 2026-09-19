@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:poison",
+    "global:poison_crit",
+    "global:poison_on_hit"
+  ]
+}

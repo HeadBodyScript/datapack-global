@@ -1,0 +1,2 @@
+execute if data entity @s SelectedItem.components{"minecraft:enchantment_glint_override":true} run return run function component:advancement/modify.offhand.revert
+function component:advancement/modify.offhand

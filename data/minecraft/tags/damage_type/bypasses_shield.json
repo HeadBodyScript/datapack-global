@@ -1,0 +1,14 @@
+{
+  "values": [
+    "global:cactus",
+    "global:campfire",
+    "global:dry_out",
+    "global:falling_anvil",
+    "global:falling_stalactite",
+    "global:hot_floor",
+    "global:in_fire",
+    "global:lava",
+    "global:lightning_bolt",
+    "global:sweet_berry_bush"
+  ]
+}

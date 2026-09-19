@@ -1,0 +1,8 @@
+{
+  "values": [
+    "global:fireworks",
+    "global:explosion",
+    "global:player_explosion",
+    "global:bad_respawn_point"
+  ]
+}

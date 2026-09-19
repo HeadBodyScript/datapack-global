@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:magic",
+    "global:magic",
+    "global:magic_on_hit"
+  ]
+}

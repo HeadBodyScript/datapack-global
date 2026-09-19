@@ -1,0 +1,24 @@
+{
+  "values": [
+    "global:true_damage",
+    "global:on_fire",
+    "global:in_wall",
+    "global:cramming",
+    "global:drown",
+    "global:fly_into_wall",
+    "global:generic",
+    "global:wither",
+    "global:dragon_breath",
+    "global:starve",
+    "global:fall",
+    "global:ender_pearl",
+    "global:freeze",
+    "global:stalagmite",
+    "global:magic",
+    "global:indirect_magic",
+    "global:out_of_world",
+    "global:generic_kill",
+    "global:sonic_boom",
+    "global:outside_border"
+  ]
+}
