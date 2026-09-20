@@ -17,7 +17,7 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{"d
 data modify storage dimitra:success success set value 1b
 execute if data storage constructor:this stat.resource{bool: true} store result storage dimitra:success success byte 1 run function constructor:component/efficiency
 execute if data storage dimitra:success {success:0b} run return fail
-execute if data storage config:debug {debug:1b} run tellraw @s [{"translate":"admin.debug.prefix"},"Constructor - ability [success]"]
+# execute if data storage config:debug {debug:1b} run tellraw @s [{"translate":"admin.debug.prefix"},"Constructor - ability [success]"]
 
 
 execute if data storage constructor:this stat.type{active: true} run function constructor:type/active
@@ -32,6 +32,8 @@ execute if data storage constructor:this stat.on-hit{bool: true} store result st
 execute if data storage constructor:this stat.cooldown{bool: true} store result storage constructor:this stat.cooldown.value int 1 store result score #TEMP.cooldown INT run function constructor:component/cooldown
 execute if data storage constructor:this stat.duration{bool: true} store result storage constructor:this stat.duration.value int 1 store result score #TEMP.duration INT run function constructor:component/duration
 execute if data storage constructor:this stat.range{bool: true} store result storage constructor:this stat.range.value int 1 store result score #TEMP.range INT run function constructor:component/range
+
+# execute if data storage config:debug {debug:1b} run tellraw @a [{"translate":"admin.debug.prefix"},{"translate":"admin.debug.selector","with":[{"selector":"@s"}]},"Reabilitycursion: ",{"score":{"objective":"INT","name":"#TEMP.on_hit"}}]
 
 tellraw @a {"storage":"constructor:this","nbt":"stat.macro"}
 return 1

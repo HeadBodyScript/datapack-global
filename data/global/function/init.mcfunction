@@ -1,1 +1,1 @@
-function global:scoreboard
+function global:init/scoreboard_add

@@ -1,4 +1,4 @@
-execute if data storage config:debug {debug:1b} run tellraw @s [{"translate":"admin.debug.prefix"},"Type - Active"]
+# execute if data storage config:debug {debug:1b} run tellraw @s [{"translate":"admin.debug.prefix"},"Type - Active"]
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{"dimitra_arcane:passive/sheen":1}}}}] unless score @s dimitra.ability.cooldown_remaining.sheen matches 1.. run advancement grant @s only dimitra_arcane:passive/sheen/default
 

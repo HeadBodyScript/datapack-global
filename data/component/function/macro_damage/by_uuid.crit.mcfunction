@@ -2,5 +2,5 @@ $execute unless data storage constructor:this stat.macro{crit: 0} if data storag
 $execute unless data storage constructor:this stat.macro{crit: 0} run damage @s $(crit) global:$(crit_type) by @n[scores={dimitra.UUID=$(UUID)}]
 
 execute store result score #0 LOCAL run data get entity @s Health
-execute if score #0 LOCAL matches ..1 run return 0
+execute if score #0 LOCAL matches ..1 run return run function component:macro_damage/callback/by_uuid with storage constructor:this {damage: 1}
 return 1
