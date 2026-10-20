@@ -35,5 +35,5 @@ execute if data storage constructor:this stat.range{bool: true} store result sto
 
 # execute if data storage config:debug {debug:1b} run tellraw @a [{"translate":"admin.debug.prefix"},{"translate":"admin.debug.selector","with":[{"selector":"@s"}]},"Reabilitycursion: ",{"score":{"objective":"INT","name":"#TEMP.on_hit"}}]
 
-tellraw @a {"storage":"constructor:this","nbt":"stat.macro"}
+# tellraw @a {"storage":"constructor:this","nbt":"stat.macro"}
 return 1

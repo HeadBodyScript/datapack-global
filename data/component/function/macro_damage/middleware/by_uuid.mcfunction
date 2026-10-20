@@ -2,18 +2,18 @@
 # tellraw @a {"storage":"constructor:this","nbt":"stat"}
 function component:macro_damage/middleware/armor_reduce
 execute store result score #0 LOCAL run data get entity @s Health
-execute as @s[tag=status.dimitra.arcane] if data storage constructor:this stat.macro{damage_type: "magic"} store result storage constructor:this stat.macro.damage float 1 run data get storage constructor:this stat.macro.damage 1.1 
+execute as @s[tag=status.dimitra.arcane] if data storage constructor:this stat.macro{damage_type: "magic"} store result storage constructor:this stat.macro.damage float 1 run data get storage constructor:this stat.macro.damage 1.1
 execute store result score #1 LOCAL run data get storage constructor:this stat.macro.damage 1
-execute if score #0 LOCAL < #1 LOCAL store result storage constructor:this stat.macro.damage float 1 run data get entity @s Health
+execute if score #0 LOCAL < #1 LOCAL store result storage constructor:this stat.macro.damage float 1 run data get entity @s Health 1.01
 execute store result storage dimitra:success success byte 1 run function component:macro_damage/by_uuid.damage with storage constructor:this stat.macro
 execute if data storage dimitra:success {success:0b} run return run function component:macro_damage/callback/by_uuid with entity @s Health
 
 
 # tellraw @a {"storage":"constructor:this","nbt":"stat.macro"}
 execute store result score #0 LOCAL run data get entity @s Health
-execute as @s[tag=status.dimitra.arcane] if data storage constructor:this stat.macro{crit_type: "magic"} store result storage constructor:this stat.macro.crit float 1 run data get storage constructor:this stat.macro.crit 1.1 
+execute as @s[tag=status.dimitra.arcane] if data storage constructor:this stat.macro{crit_type: "magic"} store result storage constructor:this stat.macro.crit float 1 run data get storage constructor:this stat.macro.crit 1.1
 execute store result score #2 LOCAL run data get storage constructor:this stat.macro.crit 1
-execute if score #0 LOCAL < #2 LOCAL store result storage constructor:this stat.macro.crit int 1 run scoreboard players get @s Health
+execute if score #0 LOCAL < #2 LOCAL store result storage constructor:this stat.macro.crit int 1 run data get entity @s Health 1.01
 execute store result storage dimitra:success success byte 1 run function component:macro_damage/by_uuid.crit with storage constructor:this stat.macro
 execute if data storage dimitra:success {success:0b} run return run function component:macro_damage/callback/by_uuid with entity @s Health
 

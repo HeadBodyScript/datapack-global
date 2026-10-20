@@ -1,7 +1,9 @@
 # execute if data storage config:debug {debug:1b} run tellraw @s [{"translate":"admin.debug.prefix"},"Constructor - Entity"]
 
+# tellraw @a {"storage":"constructor:this","nbt":"stat.scoreboard"}
 
-team join dimitra.enemy @s
+
+team join dimitra.enemy @s[team=!dimitra.ally]
 data modify entity @s CustomName set from storage constructor:this stat.CustomName
 data modify entity @s Tags set from storage constructor:this stat.Tags
 data modify entity @s drop_chances set from storage constructor:this stat.drop_chances
@@ -61,6 +63,7 @@ execute if data storage constructor:this stat.scoreboard.mana_regeneration store
 execute if data storage constructor:this stat.scoreboard.crit_chance store result score @s dimitra.attribute.crit_chance run data get storage constructor:this stat.scoreboard.crit_chance
 execute if data storage constructor:this stat.scoreboard.crit_damage store result score @s dimitra.attribute.crit_damage run data get storage constructor:this stat.scoreboard.crit_damage
 execute if data storage constructor:this stat.scoreboard.status_chance store result score @s dimitra.attribute.status_chance run data get storage constructor:this stat.scoreboard.status_chance
+execute if data storage constructor:this stat.scoreboard.companion_duration store result score @s companion.dimitra.entity.duration run data get storage constructor:this stat.scoreboard.companion_duration 20
 
 
 return 0
