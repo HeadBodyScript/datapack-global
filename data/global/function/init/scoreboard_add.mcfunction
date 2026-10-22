@@ -1,3 +1,11 @@
+scoreboard objectives add INT.0 dummy
+scoreboard objectives add INT.1 dummy
+scoreboard objectives add INT.2 dummy
+scoreboard objectives add INT.3 dummy
+scoreboard objectives add INT.4 dummy
+scoreboard objectives add INT.5 dummy
+scoreboard objectives add INT.6 dummy
+
 scoreboard objectives add CONST dummy
 scoreboard objectives add LOCAL dummy
 scoreboard objectives add PARSE dummy

@@ -15,7 +15,7 @@
           "condition": "minecraft:entity_scores",
           "entity": "this",
           "scores": {
-            "dimitra.ability.counter.redirect_void": {
+            "arcane.dimitra.counter.redirect_void": {
               "min": 1
             }
           }

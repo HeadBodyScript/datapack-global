@@ -1,6 +1,6 @@
 # execute if data storage config:debug {debug:1b} run tellraw @s [{"translate":"admin.debug.prefix"},"Type - Active"]
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{"dimitra_arcane:passive/sheen":1}}}}] unless score @s dimitra.ability.cooldown_remaining.sheen matches 1.. run advancement grant @s only dimitra_arcane:passive/sheen/default
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{"arcane_dimitra:passive/sheen":1}}}}] unless score @s arcane.dimitra.cooldown_remaining.sheen matches 1.. run advancement grant @s only arcane_dimitra:passive/sheen/default
 
 # execute if data storage constructor:this stat.damage{bool: true} store result storage constructor:this stat.macro.damage float 1 store result score #TEMP.damage INT run function dimitra:components/constructor/sort/damage
 # execute if data storage constructor:this stat.damage_scaling{bool: true} store result storage constructor:this stat.macro.damage float 1 store result score #TEMP.damage INT run function dimitra:components/constructor/sort/damage_scaling

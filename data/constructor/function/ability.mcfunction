@@ -12,7 +12,7 @@ scoreboard players set #TEMP.cooldown INT 0
 scoreboard players set #TEMP.duration INT 0
 scoreboard players set #TEMP.range INT 0
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{"dimitra_arcane:passive/arcane_transmutation":1}}}}] run data modify storage constructor:this stat.damage.type set value "dimitra:magic"
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{"arcane_dimitra:passive/arcane_transmutation":1}}}}] run data modify storage constructor:this stat.damage.type set value "dimitra:magic"
 
 data modify storage dimitra:success success set value 1b
 execute if data storage constructor:this stat.resource{bool: true} store result storage dimitra:success success byte 1 run function constructor:component/efficiency

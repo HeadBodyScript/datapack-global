@@ -6,6 +6,6 @@ scoreboard players reset #component RETURN
 execute store result score #02 LOCAL run function component:calculate/chance_recursion
 
 scoreboard players operation #onhit RETURN += #02 LOCAL
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{"dimitra_arcane:on-hit/phantom":1}}}}] run scoreboard players operation #onhit RETURN += #02 LOCAL
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{"arcane_dimitra:on-hit/phantom":1}}}}] run scoreboard players operation #onhit RETURN += #02 LOCAL
 
 return run scoreboard players get #onhit RETURN
