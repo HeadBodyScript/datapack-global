@@ -1,4 +1,4 @@
-# function status_effect_dimitra:heat/post_attack_victim
+# function status_effect_dimitra:on_fire/post_attack_victim
 # tellraw @a {"storage":"constructor:this","nbt":"stat"}
 function component:macro_damage/middleware/armor_reduce
 execute store result score #0 LOCAL run data get entity @s Health
