@@ -3,12 +3,18 @@
     "requirement": {
       "trigger": "minecraft:consume_item",
       "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "input": {
+              "sneak": false
+            }
+          }
+        },
         "item": {
-          "components": {
-            "minecraft:custom_model_data": {
-              "strings": [
-                "arcane"
-              ]
+          "predicates": {
+            "minecraft:custom_data": {
+              "global:throwable": true
             }
           }
         }
