@@ -28,7 +28,7 @@ execute if data storage constructor:this stat.type{charge: true} run function co
 execute if data storage constructor:this stat.damage{bool: true} store result storage constructor:this stat.macro.damage float 1 store result score #TEMP.damage INT run function constructor:component/damage
 execute if data storage constructor:this stat.damage_scaling{bool: true} store result storage constructor:this stat.macro.damage float 1 store result score #TEMP.damage INT run function constructor:component/damage_scaling
 execute if data storage constructor:this stat.crit{bool: true} store result storage constructor:this stat.macro.crit int 1 store result score #TEMP.crit INT run function constructor:component/crit
-execute if data storage constructor:this stat.on-hit{bool: true} store result storage constructor:this stat.on-hit.value int 1 store result score #TEMP.on_hit INT run function constructor:component/on_hit
+# execute if data storage constructor:this stat.on-hit{bool: true} store result storage constructor:this stat.on-hit.value int 1 store result score #TEMP.on_hit INT run function constructor:component/on_hit
 execute if data storage constructor:this stat.cooldown{bool: true} store result storage constructor:this stat.cooldown.value int 1 store result score #TEMP.cooldown INT run function constructor:component/cooldown
 execute if data storage constructor:this stat.duration{bool: true} store result storage constructor:this stat.duration.value int 1 store result score #TEMP.duration INT run function constructor:component/duration
 execute if data storage constructor:this stat.range{bool: true} store result storage constructor:this stat.range.value int 1 store result score #TEMP.range INT run function constructor:component/range
