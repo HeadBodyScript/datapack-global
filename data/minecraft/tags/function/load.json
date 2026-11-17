@@ -1,0 +1,7 @@
+{
+	"values": [
+		"global:initialize",
+		"constructor:initialize",
+		"component:initialize"
+	]
+}

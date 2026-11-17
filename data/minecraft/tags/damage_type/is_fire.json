@@ -1,0 +1,11 @@
+{
+  "values": [
+    "global:in_fire",
+    "global:campfire",
+    "global:on_fire",
+    "global:lava",
+    "global:hot_floor",
+    "global:unattributed_fireball",
+    "global:fireball"
+  ]
+}

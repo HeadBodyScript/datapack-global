@@ -1,0 +1,7 @@
+execute store result score #calculate.percent PARSE run data get storage constructor:this stat.range.scaling
+execute store result score #calculate.value PARSE run function constructor:get_stat/type/range
+execute store result score #calculate.percent PARSE run function component:calculate/percentage_of
+execute store result score #component.range RETURN store result score #calculate.value PARSE run data get storage constructor:this stat.range.value 1
+execute store result score #component.range RETURN run function component:calculate/percentage_sum
+execute if data storage config:debug {debug:1b} run tellraw @s [{"translate":"admin.debug.prefix"},{"translate":"admin.debug.selector","with":[{"selector":"@s"}]},"Modified ",{"translate":"misc.dimitra.range","with":[{"score":{"objective":"RETURN","name":"#0"}}],"hover_event":{"action":"show_text","value":{"translate":"misc.dimitra.range.description"}}}]
+return run scoreboard players get #component.range RETURN

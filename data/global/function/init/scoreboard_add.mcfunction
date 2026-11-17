@@ -1,0 +1,31 @@
+scoreboard objectives add INT.0 dummy
+scoreboard objectives add INT.1 dummy
+scoreboard objectives add INT.2 dummy
+scoreboard objectives add INT.3 dummy
+scoreboard objectives add INT.4 dummy
+scoreboard objectives add INT.5 dummy
+scoreboard objectives add INT.6 dummy
+
+scoreboard objectives add CONST dummy
+scoreboard objectives add LOCAL dummy
+scoreboard objectives add PARSE dummy
+scoreboard objectives add RETURN dummy
+
+scoreboard objectives add global.UUID dummy
+scoreboard objectives add global.owner.UUID dummy
+
+scoreboard objectives add player.global.attack_speed dummy
+scoreboard objectives add player.global.attack_speed.total dummy
+
+scoreboard players set #2 CONST 2
+scoreboard players set #3 CONST 3
+scoreboard players set #4 CONST 4
+scoreboard players set #5 CONST 5
+scoreboard players set #8 CONST 8
+scoreboard players set #9 CONST 9
+scoreboard players set #10 CONST 10
+scoreboard players set #90 CONST 90
+scoreboard players set #100 CONST 100
+scoreboard players set #200 CONST 200
+scoreboard players set #600 CONST 600
+scoreboard players set #1000 CONST 1000

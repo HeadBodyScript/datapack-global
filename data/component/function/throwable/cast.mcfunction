@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ #global:can_penetrate run tag @s remove tactical.looking
+execute if block ~ ~ ~ #global:can_penetrate unless entity @e[tag=tactical,scores={INT.0=40..},distance=..1] positioned ^ ^ ^1 run function component:throwable/cast

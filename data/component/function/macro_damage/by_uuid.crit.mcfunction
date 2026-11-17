@@ -1,0 +1,8 @@
+$tellraw @a[scores={global.UUID=$(UUID)}] "I did $(crit) $(crit_type) crit damage"
+
+$execute unless data storage constructor:this macro{crit: 0} if data storage config:debug {debug:1b} run tellraw @a [{"translate":"admin.debug.prefix"},{"translate":"admin.debug.selector","with":[{"selector":"@s"}]},"$(crit) $(crit_type).crit by ",{"translate":"admin.debug.selector","with":[{"selector":"@n[scores={global.UUID=$(UUID)}]"}]}]
+$execute unless data storage constructor:this macro{crit: 0} run damage @s $(crit) global:$(crit_type) by @n[scores={global.UUID=$(UUID)}]
+
+execute store result score #0 LOCAL run data get entity @s Health
+execute if score #0 LOCAL matches ..1 run return run function component:macro_damage/callback/by_uuid with storage constructor:this {damage: 1}
+return 1

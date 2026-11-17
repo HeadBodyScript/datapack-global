@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:squid",
+        "minecraft:glow_squid",
+        "minecraft:tropical_fish",
+        "minecraft:pufferfish",
+        "minecraft:drowned",
+        "minecraft:guardian",
+        "minecraft:elder_guardian"
+    ]
+}

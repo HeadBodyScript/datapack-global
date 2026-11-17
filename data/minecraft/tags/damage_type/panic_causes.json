@@ -1,0 +1,22 @@
+{
+  "values": [
+    "global:arrow",
+    "global:dragon_breath",
+    "global:explosion",
+    "global:fireball",
+    "global:fireworks",
+    "global:indirect_magic",
+    "global:magic",
+    "global:mob_attack",
+    "global:mob_projectile",
+    "global:player_explosion",
+    "global:sonic_boom",
+    "global:sting",
+    "global:thrown",
+    "global:trident",
+    "global:unattributed_fireball",
+    "global:wind_charge",
+    "global:wither",
+    "global:wither_skull"
+  ]
+}

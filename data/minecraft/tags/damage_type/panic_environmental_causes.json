@@ -1,0 +1,11 @@
+{
+  "values": [
+    "global:cactus",
+    "global:freeze",
+    "global:hot_floor",
+    "global:in_fire",
+    "global:lava",
+    "global:lightning_bolt",
+    "global:on_fire"
+  ]
+}

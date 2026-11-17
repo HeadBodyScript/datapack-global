@@ -1,0 +1,16 @@
+{
+  "values": [
+    "minecraft:mob_attack",
+    "minecraft:mob_attack_no_aggro",
+    "minecraft:mob_projectile",
+    "global:mob_attack",
+    "global:mob_attack_crit",
+    "global:mob_attack_on_hit",
+    "global:mob_attack_no_aggro",
+    "global:mob_attack_no_aggro_crit",
+    "global:mob_attack_no_aggro_on_hit",
+    "global:mob_projectile",
+    "global:mob_projectile_crit",
+    "global:mob_projectile_on_hit"
+  ]
+}

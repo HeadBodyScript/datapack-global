@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:air",
+	"minecraft:barrier",
+	"minecraft:cave_air",
+	"minecraft:short_grass",
+	"minecraft:tall_grass",
+	"minecraft:water",
+	"minecraft:sugar_cane",
+	"minecraft:snow",
+	"#minecraft:flowers",
+	"#minecraft:crops",
+	"minecraft:kelp_plant",
+	"minecraft:torch",
+	"minecraft:water",
+	"#minecraft:wool",
+    "#minecraft:wool_carpets"
+  ]
+}

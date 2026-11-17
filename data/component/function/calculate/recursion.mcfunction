@@ -1,0 +1,6 @@
+execute store success score #calculate LOCAL if predicate component:random_chance.storage
+scoreboard players operation #calculate.recursion RETURN += #calculate LOCAL
+scoreboard players remove @s PARSE 100
+execute if score @s PARSE matches 1.. run return run function component:calculate/recursion
+execute if data storage config:debug {debug:1b} run tellraw @a [{"translate":"admin.debug.prefix"},{"translate":"admin.debug.selector","with":[{"selector":"@s"}]},"Recursion: ",{"score":{"objective":"RETURN","name":"#component"}}]
+return run scoreboard players get #calculate.recursion RETURN

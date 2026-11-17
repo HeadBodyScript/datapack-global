@@ -1,0 +1,33 @@
+{
+  "values": [
+    "global:explosion",
+    "global:player_explosion",
+    "global:bad_respawn_point",
+    "global:in_fire",
+    "global:lightning_bolt",
+    "global:on_fire",
+    "global:lava",
+    "global:hot_floor",
+    "global:in_wall",
+    "global:cramming",
+    "global:drown",
+    "global:starve",
+    "global:cactus",
+    "global:fall",
+    "global:ender_pearl",
+    "global:fly_into_wall",
+    "global:out_of_world",
+    "global:generic",
+    "global:magic",
+    "global:wither",
+    "global:dragon_breath",
+    "global:dry_out",
+    "global:sweet_berry_bush",
+    "global:freeze",
+    "global:stalagmite",
+    "global:outside_border",
+    "global:generic_kill",
+    "global:campfire",
+    "global:spear"
+  ]
+}

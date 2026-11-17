@@ -1,0 +1,19 @@
+{
+    "values": [
+        "minecraft:arrow",
+        "minecraft:spectral_arrow",
+        "minecraft:ender_pearl",
+        "minecraft:wind_charge",
+        "minecraft:breeze_wind_charge",
+        "minecraft:fireball",
+        "minecraft:firework_rocket",
+        "minecraft:small_fireball",
+        "minecraft:dragon_fireball",
+        "minecraft:llama_spit",
+        "minecraft:splash_potion",
+        "minecraft:wither_skull",
+        "minecraft:falling_block",
+        "minecraft:fishing_bobber",
+        "minecraft:trident"
+    ]
+}
