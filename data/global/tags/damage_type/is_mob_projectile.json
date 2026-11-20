@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:mob_projectile",
+    "global:mob_projectile_crit",
+    "global:mob_projectile_on_hit"
+  ]
+}

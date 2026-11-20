@@ -1,9 +1,9 @@
 {
   "values": [
-    "global:arrow",
-    "global:trident",
-    "global:fireball",
-    "global:wither_skull",
-    "global:wind_charge"
+    "#global:is_arrow",
+    "#global:is_trident",
+    "#global:is_fireball",
+    "#global:is_wither_skull",
+    "#global:is_wind_charge"
   ]
 }

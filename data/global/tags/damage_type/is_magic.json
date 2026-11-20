@@ -1,7 +1,7 @@
 {
   "values": [
-    "minecraft:magic",
     "global:magic",
+    "global:magic_crit",
     "global:magic_on_hit"
   ]
 }

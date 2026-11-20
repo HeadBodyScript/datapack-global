@@ -1,0 +1,6 @@
+{
+  "values": [
+    "minecraft:true_damage",
+    "#global:is_true_damage"
+  ]
+}

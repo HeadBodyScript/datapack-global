@@ -1,7 +1,7 @@
 {
   "values": [
-    "global:player_attack",
-    "global:spear",
-    "global:mace_smash"
+    "#global:is_player_attack",
+    "#global:is_spear",
+    "#global:is_mace_smash"
   ]
 }

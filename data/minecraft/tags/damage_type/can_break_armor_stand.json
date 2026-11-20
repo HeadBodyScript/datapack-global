@@ -1,5 +1,5 @@
 {
   "values": [
-    "global:player_explosion"
+    "#global:is_player_explosion"
   ]
 }

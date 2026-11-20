@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:trident",
+    "global:trident_crit",
+    "global:trident_on_hit"
+  ]
+}

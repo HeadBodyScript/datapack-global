@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:mob_attack_no_aggro",
+    "global:mob_attack_no_aggro_crit",
+    "global:mob_attack_no_aggro_on_hit"
+  ]
+}

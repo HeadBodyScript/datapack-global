@@ -1,0 +1,6 @@
+{
+  "values": [
+    "minecraft:poison",
+    "#global:is_poison"
+  ]
+}

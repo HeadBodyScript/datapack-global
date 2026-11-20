@@ -1,14 +1,14 @@
 {
   "values": [
-    "global:cactus",
-    "global:campfire",
-    "global:dry_out",
-    "global:falling_anvil",
-    "global:falling_stalactite",
-    "global:hot_floor",
-    "global:in_fire",
-    "global:lava",
-    "global:lightning_bolt",
-    "global:sweet_berry_bush"
+    "#global:is_cactus",
+    "#global:is_campfire",
+    "#global:is_dry_out",
+    "#global:is_falling_anvil",
+    "#global:is_falling_stalactite",
+    "#global:is_hot_floor",
+    "#global:is_in_fire",
+    "#global:is_lava",
+    "#global:is_lightning_bolt",
+    "#global:is_sweet_berry_bush"
   ]
 }

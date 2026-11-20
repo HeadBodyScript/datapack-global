@@ -1,5 +1,5 @@
 {
   "values": [
-    "global:freeze"
+    "#global:is_freeze"
   ]
 }

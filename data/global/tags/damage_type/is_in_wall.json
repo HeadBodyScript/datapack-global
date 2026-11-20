@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:in_wall",
+    "global:in_wall_crit",
+    "global:in_wall_on_hit"
+  ]
+}

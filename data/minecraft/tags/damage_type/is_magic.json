@@ -1,0 +1,6 @@
+{
+  "values": [
+    "minecraft:magic",
+    "#global:is_magic"
+  ]
+}

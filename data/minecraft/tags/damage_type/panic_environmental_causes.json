@@ -1,11 +1,11 @@
 {
   "values": [
-    "global:cactus",
-    "global:freeze",
-    "global:hot_floor",
-    "global:in_fire",
-    "global:lava",
-    "global:lightning_bolt",
-    "global:on_fire"
+    "#global:is_cactus",
+    "#global:is_freeze",
+    "#global:is_hot_floor",
+    "#global:is_in_fire",
+    "#global:is_lava",
+    "#global:is_lightning_bolt",
+    "#global:is_on_fire"
   ]
 }

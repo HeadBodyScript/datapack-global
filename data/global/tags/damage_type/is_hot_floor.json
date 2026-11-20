@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:hot_floor",
+    "global:hot_floor_crit",
+    "global:hot_floor_on_hit"
+  ]
+}

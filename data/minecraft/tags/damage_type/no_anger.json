@@ -1,5 +1,5 @@
 {
   "values": [
-    "global:mob_attack_no_aggro"
+    "#global:is_mob_attack_no_aggro"
   ]
 }

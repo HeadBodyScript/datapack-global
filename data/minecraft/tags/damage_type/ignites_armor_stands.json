@@ -1,6 +1,6 @@
 {
   "values": [
-    "global:in_fire",
-    "global:campfire"
+    "#global:is_in_fire",
+    "#global:is_campfire"
   ]
 }

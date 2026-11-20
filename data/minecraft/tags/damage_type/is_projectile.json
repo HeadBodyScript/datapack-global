@@ -1,12 +1,12 @@
 {
   "values": [
-    "global:arrow",
-    "global:trident",
-    "global:mob_projectile",
-    "global:unattributed_fireball",
-    "global:fireball",
-    "global:wither_skull",
-    "global:thrown",
-    "global:wind_charge"
+    "#global:is_arrow",
+    "#global:is_trident",
+    "#global:is_mob_projectile",
+    "#global:is_unattributed_fireball",
+    "#global:is_fireball",
+    "#global:is_wither_skull",
+    "#global:is_thrown",
+    "#global:is_wind_charge"
   ]
 }

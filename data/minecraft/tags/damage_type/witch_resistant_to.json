@@ -1,8 +1,8 @@
 {
   "values": [
-    "global:magic",
-    "global:indirect_magic",
-    "global:sonic_boom",
-    "global:thorns"
+    "#global:is_magic",
+    "#global:is_indirect_magic",
+    "#global:is_sonic_boom",
+    "#global:is_thorns"
   ]
 }

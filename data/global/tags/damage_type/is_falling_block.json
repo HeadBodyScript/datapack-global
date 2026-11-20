@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:falling_block",
+    "global:falling_block_crit",
+    "global:falling_block_on_hit"
+  ]
+}

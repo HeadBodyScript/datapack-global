@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:lava",
+    "global:lava_crit",
+    "global:lava_on_hit"
+  ]
+}

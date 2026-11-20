@@ -1,6 +1,6 @@
 {
   "values": [
-    "global:out_of_world",
-    "global:generic_kill"
+    "#global:is_out_of_world",
+    "#global:is_generic_kill"
   ]
 }

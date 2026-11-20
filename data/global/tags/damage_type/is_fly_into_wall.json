@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:fly_into_wall",
+    "global:fly_into_wall_crit",
+    "global:fly_into_wall_on_hit"
+  ]
+}

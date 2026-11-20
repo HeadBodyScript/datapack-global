@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:wind_charge",
+    "global:wind_charge_crit",
+    "global:wind_charge_on_hit"
+  ]
+}

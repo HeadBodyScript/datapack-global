@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:freeze",
+    "global:freeze_crit",
+    "global:freeze_on_hit"
+  ]
+}

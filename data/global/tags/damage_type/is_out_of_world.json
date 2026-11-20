@@ -1,5 +1,7 @@
 {
   "values": [
-    "minecraft:out_of_world"
+    "global:out_of_world",
+    "global:out_of_world_crit",
+    "global:out_of_world_on_hit"
   ]
 }

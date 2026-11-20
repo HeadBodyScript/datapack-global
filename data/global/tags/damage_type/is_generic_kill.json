@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:generic_kill",
+    "global:generic_kill_crit",
+    "global:generic_kill_on_hit"
+  ]
+}

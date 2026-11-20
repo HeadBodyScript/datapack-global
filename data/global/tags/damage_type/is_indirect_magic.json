@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:indirect_magic",
+    "global:indirect_magic_crit",
+    "global:indirect_magic_on_hit"
+  ]
+}

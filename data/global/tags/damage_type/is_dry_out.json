@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:dry_out",
+    "global:dry_out_crit",
+    "global:dry_out_on_hit"
+  ]
+}

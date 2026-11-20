@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:player_attack",
+    "global:player_attack_crit",
+    "global:player_attack_on_hit"
+  ]
+}

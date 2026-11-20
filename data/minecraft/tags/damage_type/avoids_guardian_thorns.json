@@ -1,6 +1,6 @@
 {
   "values": [
-    "global:magic",
-    "global:thorns"
+    "#global:is_magic",
+    "#global:is_thorns"
   ]
 }

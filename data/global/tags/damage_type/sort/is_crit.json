@@ -24,7 +24,7 @@
     "global:indirect_magic_crit",
     "global:in_fire_crit",
     "global:in_wall_crit",
-    "global:lava_crit_crit",
+    "global:lava_crit",
     "global:lightning_bolt_crit",
     "global:mace_smash_crit",
     "global:magic_crit",

@@ -1,7 +1,7 @@
 {
   "values": [
-    "global:fall",
-    "global:ender_pearl",
-    "global:stalagmite"
+    "#global:is_fall",
+    "#global:is_ender_pearl",
+    "#global:is_stalagmite"
   ]
 }

@@ -1,5 +1,5 @@
 {
   "values": [
-    "global:lightning_bolt"
+    "#global:is_lightning_bolt"
   ]
 }

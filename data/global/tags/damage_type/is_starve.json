@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:starve",
+    "global:starve_crit",
+    "global:starve_on_hit"
+  ]
+}

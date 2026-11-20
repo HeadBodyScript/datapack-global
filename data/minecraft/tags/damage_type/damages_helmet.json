@@ -1,7 +1,7 @@
 {
   "values": [
-    "global:falling_anvil",
-    "global:falling_block",
-    "global:falling_stalactite"
+    "#global:is_falling_anvil",
+    "#global:is_falling_block",
+    "#global:is_falling_stalactite"
   ]
 }

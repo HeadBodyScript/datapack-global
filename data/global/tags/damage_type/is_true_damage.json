@@ -1,0 +1,7 @@
+{
+  "values": [
+    "global:true_damage",
+    "global:true_damage_crit",
+    "global:true_damage_on_hit"
+  ]
+}

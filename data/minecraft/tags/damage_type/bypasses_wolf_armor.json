@@ -1,15 +1,15 @@
 {
   "values": [
-    "global:cramming",
-    "global:drown",
-    "global:dry_out",
-    "global:freeze",
-    "global:in_wall",
-    "global:indirect_magic",
-    "global:magic",
-    "global:outside_border",
-    "global:starve",
-    "global:thorns",
-    "global:wither"
+    "#global:is_cramming",
+    "#global:is_drown",
+    "#global:is_dry_out",
+    "#global:is_freeze",
+    "#global:is_in_wall",
+    "#global:is_indirect_magic",
+    "#global:is_magic",
+    "#global:is_outside_border",
+    "#global:is_starve",
+    "#global:is_thorns",
+    "#global:is_wither"
   ]
 }
