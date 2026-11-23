@@ -1,8 +1,25 @@
 {
-    "pack": {
-        "description": "The default data for Minecraft",
-        "pack_format": 94.1,
-        "min_format": 94.1,
-        "max_format": 94.1
-    }
+  "pack": {
+    "description": "    §8« Optifine / EMF / ETF »§r\n§7Data = §k(12/7/77)",
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 94
+    },
+    "min_format": 48,
+    "max_format": 94
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "global",
+        "min_format": 48,
+        "max_format": 94
+      },
+      {
+        "directory": "26_1",
+        "min_format": 101,
+        "max_format": 101
+      }
+    ]
+  }
 }

@@ -8,12 +8,13 @@ execute if score #0 LOCAL < @s constructor.healing_amount run scoreboard players
 # if healing is more than the missing health the player has
 
 execute store result score #0 LOCAL run data get entity @s Health 1000
-scoreboard players operation @s constructor.healing_amount *= #1000 INT
+scoreboard players operation @s constructor.healing_amount *= #1000 CONST
 scoreboard players operation #0 LOCAL += @s constructor.healing_amount
 execute store result storage constructor:this healing.new_health float 0.001 run scoreboard players get #0 LOCAL
 tag @s add player.macro_healing
 function component:macro_healing/set_player_health with storage constructor:this healing
-effect give @s minecraft:instant_health 1 28 true
+effect give @s minecraft:instant_health 64 64 true
+execute if data storage config:debug {debug:1b,healing:1b} run tellraw @s [{"translate":"admin.debug.prefix"},"Healed For: ",{"score":{"objective":"constructor.healing_amount","name":"@s"}}]
 scoreboard players reset @s constructor.healing_amount
 
 # known bugs if a player switches from an item that has a max_health modifier right as this function is executed it will deal damage based on the max_health modifier of the item to the player // this can not be fixed because a 1 tick delay is needed

@@ -9,7 +9,7 @@ scoreboard players operation @s PARSE = #crit_chance PARSE
 # required for recursion
 scoreboard players reset #component RETURN
 
-execute store result score #chance_recursion LOCAL run function component:calculate/chance_recursion
+execute store result score #chance_recursion LOCAL run function component:calculate/recursion
 execute unless score #chance_recursion LOCAL matches 1.. run return fail
 scoreboard players operation #0 PARSE = #total_damage PARSE
 scoreboard players operation #1 PARSE = #crit_damage PARSE

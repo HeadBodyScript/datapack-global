@@ -1,0 +1,2 @@
+function constructor:_initialize/scoreboard
+function constructor:_initialize/storage

@@ -1,0 +1,3 @@
+execute if data storage config:debug {debug:1b,combat_log:1b} run tellraw @s [{"translate":"admin.debug.prefix"},{"translate":"misc.dimitra.resource",with:[{"score":{"objective":"LOCAL","name":"#constructor.resource"}}]}]
+# why separate file? For skill refund mana
+scoreboard players operation @s player.dimitra.energy -= #constructor.resource LOCAL

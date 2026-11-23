@@ -3,7 +3,7 @@
 
 # execute store result score @s PARSE run function constructor:get_stat/type/status_chance
 # scoreboard players reset #component RETURN
-# execute store result score #02 LOCAL run function component:calculate/chance_recursion
+# execute store result score #02 LOCAL run function component:calculate/recursion
 
 # scoreboard players operation #onhit RETURN += #02 LOCAL
 # execute if entity @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{"arcane_dimitra:on-hit/phantom":1}}}}] run scoreboard players operation #onhit RETURN += #02 LOCAL
@@ -14,3 +14,6 @@
 
 
 # ?on hit should only check for sources and add them all together
+
+
+execute if data storage config:debug {debug:1b,calculation:1b} run tellraw @s [{"translate":"admin.debug.prefix"},{"translate":"misc.dimitra.on_hit","with":[{"score":{"objective":"RETURN","name":"#component.on_hit"}}]}," Modified"]

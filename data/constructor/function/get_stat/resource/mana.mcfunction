@@ -1,0 +1,1 @@
+scoreboard players operation #component.player_resource LOCAL = @s dimitra.player.mana

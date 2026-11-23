@@ -9,7 +9,6 @@
 # execute if advancement false reduce energy
 
 # parse 30 will become the damage and 20 crit damage
-say mace
 execute store result score #base_damage PARSE run attribute @s attack_damage get 1
 execute as @s[advancements={skill_dimitra:attribute_1/requirement_1/tree_1/root/2=true}] run scoreboard players set #bonus_damage PARSE 4
 

@@ -6,7 +6,7 @@ scoreboard objectives add INT.4 dummy
 scoreboard objectives add INT.5 dummy
 scoreboard objectives add INT.6 dummy
 
-scoreboard objectives add CONST dummy
+scoreboard objectives add CONST dummy ""
 scoreboard objectives add LOCAL dummy
 scoreboard objectives add PARSE dummy
 scoreboard objectives add RETURN dummy
@@ -17,6 +17,7 @@ scoreboard objectives add global.owner.UUID dummy
 scoreboard objectives add player.global.attack_speed dummy
 scoreboard objectives add player.global.attack_speed.total dummy
 
+scoreboard players set #1 CONST 1
 scoreboard players set #2 CONST 2
 scoreboard players set #3 CONST 3
 scoreboard players set #4 CONST 4

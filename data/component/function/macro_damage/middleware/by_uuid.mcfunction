@@ -1,6 +1,9 @@
 # function status_effect_dimitra:on_fire/post_attack_victim
 # tellraw @a {"storage":"constructor:this","nbt":"stat"}
 # config.constructor:template macro
+# summon text_display ~ ~3 ~ {text:{"nbt":"macro.damage","storage":"constructor:this"},Tags:["ADMINTEST"]}
+# summon text_display ~ ~3 ~ {billboard:"vertical",text:"999",Tags:["ADMINTEST"]}
+# summon text_display ~ ~ ~ {billboard:"center",text:{"nbt":"macro.damage","storage":"constructor:this"}}
 function component:macro_damage/middleware/armor_reduce
 execute store result score #middleware.health LOCAL run data get entity @s Health
 execute as @s[tag=status.dimitra.arcane] if data storage constructor:this macro{damage_type: "magic"} store result storage constructor:this macro.damage float 1 run data get storage constructor:this macro.damage 1.1
