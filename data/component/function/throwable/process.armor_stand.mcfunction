@@ -7,7 +7,7 @@ tag @s[tag=global.throwable.motion] add global.throwable.motion_post
 tag @s remove global.throwable.motion
 execute as @s[nbt={OnGround:0b}] run particle minecraft:smoke ~ ~ ~ 0 0 0 0 0 force
 scoreboard players add @s INT.0 1
-# execute as @s[scores={INT.0=40..}] run function admin:debug/debug
+# execute as @s[scores={INT.0=40..}] run function _admin:debug/debug
 execute if score @s INT.0 matches 100 run kill @n[type=item_display,tag=item_display.throwable,tag=global]
 execute if score @s INT.0 matches 100 run kill @s
 # execute as @s[scores={INT.0=40..}] run kill @s

@@ -7,9 +7,9 @@ data modify storage constructor:this macro set from storage config.constructor:t
 execute store result storage constructor:this stat.macro.UUID int 1 run scoreboard players get @s global.UUID
 
 data modify storage constructor:this macro.damage set from storage constructor:this stat.damage.type
-data modify storage constructor:this macro.crit set from storage constructor:this stat.crit.typr
+data modify storage constructor:this macro.crit set from storage constructor:this stat.crit.type
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{"arcane_dimitra:passive/arcane_transmutation":1}}}}] run data modify storage constructor:this stat.damage.type set value "dimitra:magic"
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:enchantments":{"arcane_dimitra:passive/arcane_transmutation":1}}}}] run data modify storage constructor:this stat.damage.type set value "magic"
 
 data modify storage global:success success set value 1b
 execute if data storage constructor:this stat.resource{bool:1b} store result score #constructor.resource LOCAL run function constructor:component/resource
