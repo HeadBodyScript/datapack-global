@@ -1,6 +1,9 @@
 {
     "values": [
-        "#global:type/neutral",
-        "#global:type/hostile"
+        "#global:type/hostile",
+        "minecraft:cave_spider",
+        "minecraft:piglin",
+        "minecraft:spider",
+        "minecraft:zombified_piglin"
     ]
 }

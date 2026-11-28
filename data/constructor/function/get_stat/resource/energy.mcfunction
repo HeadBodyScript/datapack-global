@@ -1,1 +1,1 @@
-scoreboard players operation #component.player_resource LOCAL = @s player.dimitra.energy
+scoreboard players operation #component.player_resource LOCAL = @s entity.dimitra.energy

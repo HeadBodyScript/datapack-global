@@ -12,9 +12,9 @@
 execute store result score #base_damage PARSE run attribute @s attack_damage get 1
 execute as @s[advancements={skill_dimitra:attribute_1/requirement_1/tree_1/root/2=true}] run scoreboard players set #bonus_damage PARSE 4
 
-execute store result score #crit_chance PARSE run scoreboard players get @s dimitra.attribute.crit_chance
+execute store result score #crit_chance PARSE run scoreboard players get @s entity.dimitra.attribute.crit_chance
 
-execute store result score #crit_damage PARSE run scoreboard players get @s dimitra.attribute.crit_damage
+execute store result score #crit_damage PARSE run scoreboard players get @s entity.dimitra.attribute.crit_damage
 
 # if obliterate 2x both parse
 

@@ -1,3 +1,3 @@
-tag @s remove player.macro_healing
+tag @s remove player.global.macro_healing
 attribute @s minecraft:max_health modifier remove component:max_health
 attribute @s minecraft:max_health modifier remove component:new_health

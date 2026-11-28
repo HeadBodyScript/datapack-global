@@ -11,5 +11,5 @@ scoreboard players operation @s INT.6 -= @s INT.3
 execute store result entity @s Motion[0] double 0.05 run scoreboard players get @s INT.4
 execute store result entity @s Motion[1] double 0.025 run scoreboard players get @s INT.5
 execute store result entity @s Motion[2] double 0.05 run scoreboard players get @s INT.6
-tag @s remove global.throwable.motion_post
+tag @s remove armor_stand.global.throwable.motion_post
 # tp @s ~ ~1.2 ~ 0.0 0.0

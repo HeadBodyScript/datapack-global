@@ -1,6 +1,6 @@
 data remove storage constructor:this macro
 data modify storage constructor:this macro set from storage config.constructor:template macro
-execute store result storage constructor:this stat.macro.UUID int 1 store result storage constructor:this macro.UUID int 1 run scoreboard players get @s global.UUID
+execute store result storage constructor:this stat.macro.UUID int 1 store result storage constructor:this macro.UUID int 1 run scoreboard players get @s player.global.uuid
 
 data modify storage constructor:this macro.damage set from storage constructor:this stat.damage.type
 data modify storage constructor:this macro.crit set from storage constructor:this stat.crit.typr

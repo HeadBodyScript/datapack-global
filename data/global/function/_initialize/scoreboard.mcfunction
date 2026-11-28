@@ -11,8 +11,8 @@ scoreboard objectives add LOCAL dummy
 scoreboard objectives add PARSE dummy
 scoreboard objectives add RETURN dummy
 
-scoreboard objectives add global.UUID dummy
-scoreboard objectives add global.owner.UUID dummy
+scoreboard objectives add player.global.uuid dummy
+scoreboard objectives add owner.global.uuid dummy
 
 scoreboard objectives add player.global.attack_speed dummy
 scoreboard objectives add player.global.attack_speed.total dummy

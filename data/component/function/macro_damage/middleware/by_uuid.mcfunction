@@ -22,7 +22,7 @@ execute store result storage global:success success byte 1 run function componen
 execute if data storage global:success {success:0b} run return run function component:macro_damage/callback/by_uuid with entity @s Health
 
 # on hit needs to be checked and maybe changed
-tag @s add dimitra.projectile.on_hit
+tag @s add projectile.global.on_hit
 # execute at @s on attacker run function constructor:on_hit
-tag @s remove dimitra.projectile.on_hit
+tag @s remove projectile.global.on_hit
 function component:macro_damage/middleware/armor_reset

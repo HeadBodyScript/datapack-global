@@ -1,4 +1,7 @@
 {
+	"snippet": {
+		"immuneToDamageType":"immune_to.damage_type.REPLACE"
+	},
    "lint": {
       "idOmitDefaultNamespace": false,
 		"blockStateSortKeys": null,
@@ -12,10 +15,10 @@
 		"selectorKeyQuote": null,
       
 		"nameOfNbtKey": null,
-		"nameOfObjective": "^(?:[a-z_]+.dimitra(.[a-z_]+)+|LOCAL)$",
-      "nameOfScoreHolder": "^#[a-z_]+(?:.[a-z_]+)+$",
-		"nameOfTag": null,
-		"nameOfTeam": null,
+		"nameOfObjective": "^(?:[a-z_]+\\.(dimitra|global)(\\.[a-z_]+)*?(\\.[a-z_]+)|LOCAL|RETURN|CONST|PARSE|INT(\\.[0-9]))$",
+      	"nameOfScoreHolder": "^#[a-z_]+(?:.[a-z_])|#[0-9]|#(LOCAL|RETURN|CONST|PARSE)(\\.[0-9a-z_]*)?$",
+		"nameOfTag": "^(?:((DISABLED|LOCAL)|[a-z0-9_.]+))$",
+		"nameOfTeam": "^(?:[a-z_]+\\.(dimitra|global))$",
 
 		"nbtArrayLengthCheck": true,
 		"nbtBoolean": null,
@@ -23,7 +26,20 @@
 		"nbtTypeCheck": "loosely"
    },
    "env": {
-      "gameVersion": "1.21.11"
+      "gameVersion": "1.21.11",
+		"feature": {
+			"codeActions": true,
+			"colors": true,
+			"completions": true,
+			"documentHighlighting": true,
+			"documentLinks": true,
+			"foldingRanges": true,
+			"formatting": true,
+			"hover": false,
+			"semanticColoring": true,
+			"selectionRanges": true,
+			"signatures": true
+		}
    },
 	"format": {
 		"blockStateBracketSpacing": { "inside": 0 },
@@ -53,9 +69,5 @@
 		"selectorEqualSpacing": { "before": 0, "after": 0 },
 		"selectorTrailingComma": false,
 		"timeOmitTickUnit": false
-   },
-	"snippet": {
-		"executeIfScoreSet": "execute if score ${1:score_holder} ${2:objective} = ${1:score_holder} ${2:objective} $0",
-		"summonAec": "summon minecraft:area_effect_cloud ~ ~ ~ {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: [\"${1:tag}\"]}"
-	}
+   }
 }

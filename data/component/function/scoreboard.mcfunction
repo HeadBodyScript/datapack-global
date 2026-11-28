@@ -1,1 +1,1 @@
-scoreboard objectives add constructor.healing_amount dummy
+scoreboard objectives add player.global.healing_amount dummy

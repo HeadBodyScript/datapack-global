@@ -7,7 +7,7 @@
 # execute if data storage constructor:this stat.duration{bool:1b} store result storage constructor:this stat.duration.value int 1 store result score #constructor.duration LOCAL run function dimitra:components/constructor/sort/duration
 # execute if data storage constructor:this stat.range{bool:1b} store result storage constructor:this stat.range.value int 1 store result score #constructor.range LOCAL run function dimitra:components/constructor/sort/range
 
-scoreboard players operation @s PARSE = @s dimitra.attribute.status_chance
+scoreboard players operation @s PARSE = @s entity.dimitra.attribute.status_chance
 
 scoreboard players reset #component RETURN
 execute store result score #chance_recursion RETURN run function component:calculate/recursion

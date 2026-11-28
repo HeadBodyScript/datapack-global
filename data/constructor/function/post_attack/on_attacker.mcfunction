@@ -1,5 +1,5 @@
 data modify storage constructor:this stat set from storage config.post_attack:default stat
-execute store result storage constructor:this stat.macro.UUID int 1 run scoreboard players get @s global.UUID
+execute store result storage constructor:this stat.macro.UUID int 1 run scoreboard players get @s player.global.uuid
 
 # do every weapon
 execute if items entity @s weapon.mainhand #global:mace store result storage constructor:this stat.macro.damage float 1 run function constructor:post_attack/mace
